@@ -1,0 +1,14 @@
+.react-bingmaps{
+    height: 500px;
+    width: 49%;
+    float: left;
+    display: inline;
+    padding: 5%;
+}
+
+.contactMap {
+    width: 49%;
+    float: right;
+    display: inline;
+}
+
