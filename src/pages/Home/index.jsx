@@ -19,6 +19,9 @@ import Card from "../../components/Card/Card";
 import ContactMap from "../../components/ContactMap/ContactMap";
 import LSHeader from "../../components/LSHeader/LSHeader";
 
+import Whatsapp from '../../components/Whatsapp';
+import Credits from "../../components/Credits";
+
 export default props => (
   <>
     <LSHeader />
@@ -43,6 +46,8 @@ export default props => (
         phone="(31) 3275-0464"
         mail="laerteslva@yahoo.com.br"
       ></ContactMap>
+      <Whatsapp/>
+      <Credits/>
     </Section>
   </>
 );

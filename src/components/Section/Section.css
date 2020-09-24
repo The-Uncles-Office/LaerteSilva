@@ -4,4 +4,5 @@ h1, h2 {
 }
 .section {
     padding: 5%;
+    position : relative;
 }
