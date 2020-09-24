@@ -1,0 +1,90 @@
+.wpp-image {
+    width: 5rem;
+    position : fixed;
+    bottom : 20px;
+    right: 0;
+
+    cursor : pointer;
+}
+
+.x-image {
+    width: 1rem;
+    position : absolute;
+    top : 1rem;
+    right: 1rem;
+
+    cursor : pointer;
+}
+
+@keyframes show-bottom-up {
+    0%{
+        transform: translateY(100%);
+    }
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+.wpp-chat-box {
+    animation: show-bottom-up .7s linear 0s 1;
+    height  : 20rem;
+    width : 15rem;
+    border-radius: 20px 20px 0 0;
+    position : fixed;
+    bottom : 0;
+    right: 1rem;
+    background : white;
+    z-index: 1;
+    box-shadow: 0 0 10px #00000077;
+}
+
+.wpp-chat-box::before {
+    content: "Laerte";
+    border-radius: 20px 20px 0 0;
+    height : 3rem;
+    width : 100%;
+    position: absolute;
+    top : 0;
+    left : 0;
+    background : #80d95b;
+    color : white;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+    font-weight: bold;
+    font-size: 1.1em;
+
+
+}
+
+.text-box {
+    margin-top: 3rem;
+    width: 100%;
+    line-height: 1.4em;
+    font-size: 1.3em;
+    resize: none;
+    height: 14rem;
+    padding: 5px;
+    border: transparent;
+}
+
+.send-message {
+    width: 100%;
+    height: 2.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border : none;
+    background:#80d95bdd;
+    color : white;
+    font-weight: bold;
+    font-size: 1.1em;
+
+    cursor: pointer;
+    
+}
+
+.send-message:hover {
+    background-color: #80d95b;
+}
