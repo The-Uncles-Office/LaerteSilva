@@ -9,7 +9,7 @@ strong {
 .page {
   width: 100%;
   height: 70px;
-  background: #fdfdfd;
+  background: transparent;
   font-weight: 600;
   letter-spacing: .03em;
   color: #212121;

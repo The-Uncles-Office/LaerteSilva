@@ -6,3 +6,6 @@ h1, h2 {
     padding: 5%;
     position : relative;
 }
+.section-content {
+    text-align: center;
+}

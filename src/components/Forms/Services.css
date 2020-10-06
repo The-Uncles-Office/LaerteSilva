@@ -1,0 +1,15 @@
+label,input,textarea {
+    display: block;
+    text-align: center;
+    margin: 5px auto
+}
+
+input {
+    height: 2em;
+    width: 30%;
+}
+
+textarea{
+    width: 30%;
+    height: 200px;
+}
